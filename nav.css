@@ -1,24 +1,50 @@
 #navbar{
     display: flex;
-    flex-direction: row;
+    justify-content: right;
+}
+li{
+    width: 100px;
+    height: 50px;
+    list-style: none;
+    border: 1px black solid;
+    margin: 5px;
+    text-align: center;
+}
+span{
+    display: inline-block;
+    height: 50px;
+    width:100px;
+}
+#navbar a{
+    text-decoration: none;
+    color: #fff;
+    background-color: lightskyblue;
+    }
+#navbar a:hover{
+    background-color:lightblue;
+    color: #000;
 }
 #first{
-    height: 200px;
-    width: 100px;
+    height: 1vh;
+    width: 1vw;
     margin: 10px;
     display: block;
+    position:absolute;
 }
 #second{
-    height: 200px;
-    width: 100px;
+    height: 1vh;
+    width: 1vw;
     margin: 10px;
     display: block;
+    position: absolute;
+
 }
 #third{
-    height: 200px;
-    width: 100px;
+    height: 1vh;
+    width: 1vw;
     margin: 10px;
     display: block;
+    position: absolute;
 }
 #intro{
     color:blue;
