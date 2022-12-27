@@ -1,51 +1,80 @@
-#navbar{
-    display: flex;
-    justify-content: right;
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+    overflow: hidden;
 }
 li{
-    width: 100px;
-    height: 50px;
-    list-style: none;
-    border: 1px black solid;
-    margin: 5px;
+    float: right;
+}
+li a{
+    display: block;
     text-align: center;
-}
-span{
-    display: inline-block;
-    height: 50px;
-    width:100px;
-}
-#navbar a{
     text-decoration: none;
+    background-color: #000;
     color: #fff;
-    background-color: lightskyblue;
-    }
-#navbar a:hover{
-    background-color:lightblue;
-    color: #000;
+    font-weight: bold;
+    padding: 14px 16px;
+}
+li a:hover{
+    color: rgb(209, 161, 3);
+    background-color: #444;
+    font-weight:bolder;
 }
 #first{
-    height: 1vh;
-    width: 1vw;
-    margin: 10px;
-    display: block;
-    position:absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    background-color: #444;
+}
+#first h1{
+    font-size: 6rem;
+    padding: 0;
+    margin: 0;
+}
+#first h3{
+    font-size: 2rem;
+    padding: 0;
+    margin: 0;
 }
 #second{
-    height: 1vh;
-    width: 1vw;
-    margin: 10px;
-    display: block;
-    position: absolute;
-
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(120, 120, 120);
 }
-#third{
-    height: 1vh;
-    width: 1vw;
-    margin: 10px;
-    display: block;
-    position: absolute;
+#second h1{
+    text-align: center;
+    font-size: 2rem;
+    padding-top: 5%;
+    padding-bottom: 2%;
 }
-#intro{
-    color:blue;
+#second hr{
+    margin: 0 20%;
+}
+#third{    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(252, 249, 249);
+}
+#third h1{
+    text-align: center;
+    font-size: 2rem;
+    padding-top: 5%;
+    padding-bottom: 2%;
+}
+#fourth{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
 }
